@@ -1,0 +1,192 @@
+{
+  "main": {
+    "firstName": "Hamza",
+    "name": "Hamza Abda",
+    "occupation": "Software Engineer | Backend & AI Enthusiast",
+"description": "Passionate about building robust backend systems and exploring AI solutions.",
+
+    "image": "hamza-abda.jpg",
+   "bio": "My name is Hamza Abda, a passionate Software Engineer from Tunisia. I specialize in backend development with Java and Spring Boot, and I enjoy working on full-stack and AI-powered projects. Recently graduated, I'm eager to contribute to impactful tech solutions.",
+
+    "contactmessage": "Get in touch with me to receive further details.",
+    "email": "hamzaabda500@gmail.com",
+     "phone":"+21626862373",
+    "address": {
+      "city": "Bizerte",
+      "state": "Tunisia"
+    },
+    "resumedownload": {
+  "en": "https://drive.google.com/file/d/1P_5HiGE3nIrvFGSyiwalH66ZJECmG4L5/view?usp=drive_link",
+  "fr": "https://drive.google.com/file/d/1ojzQjtb8pGuOdpzYCadNiYZEmLib74ba/view?usp=drive_link"
+}, 
+    "social": [
+      
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/hamza-abda-56ba331b1",
+        "className": "fa fa-linkedin"
+      },
+     
+      {
+        "name": "github",
+        "url": "https://github.com/hamzaabda",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "I have a solid foundation in full stack development, combining modern frontend frameworks with robust backend technologies and DevOps tools.",
+   "education": [
+  {
+    "school": "Lycée Jeune Fille Bizerte",
+    "degree": "Baccalaureate in Computer Science",
+    "graduated": "2018",
+    "description": "High school diploma with focus on computer science"
+  },
+  {
+    "school": "Higher Institute of Applied Sciences and Technology of Mateur",
+    "degree": "Bachelor’s Degree in Industrial Computing",
+    "graduated": "2021",
+    "description": "Practical training in software development and industrial systems"
+  },
+  {
+    "school": "ESPRIT – Private Higher School of Engineering and Technology",
+    "degree": "Engineering Degree in Computer Science",
+    "graduated": "2025",
+    "description": "Specialized in full-stack development, DevOps, and AI-integrated applications"
+  }
+
+    ],
+    "experience": [
+  {
+    "company": "Tunisie Telecom",
+    "title": "Intern",
+    "year": "2019",
+    "description": "Processed customer complaints and contributed to improving after-sales service quality."
+  },
+  {
+    "company": "Aurax",
+    "title": "Final Year Project (Bachelor's Degree)",
+    "year": "2021",
+    "description": "Designed and developed a dynamic website for the ISSAT Mateur university using modern web technologies."
+  },
+  {
+    "company": "Emit",
+    "title": "Corporate Immersion Intern",
+    "years": "2022",
+    "description": "Managed and maintained an e-commerce platform, gaining hands-on experience in online sales systems."
+  },
+  {
+    "company": "Employability Hub - Esprit Group",
+    "title": "Engineering Intern",
+    "years": "2023",
+    "description": "Developed a full-stack web application for managing internships and job offers using React, Node.js, and MongoDB."
+  },
+  {
+    "company": "Standard Sharing Software",
+    "title": "Final Year Project (Engineering Degree)",
+    "years": "2024",
+    "description": "Designed and developed an AI-powered CV parsing application using OCR technology, Spring Boot, and PostgreSQL."
+  }
+],
+    "skills": [
+  { "name": "JavaScript", "category": "Programming Language" },
+  { "name": "TypeScript", "category": "Programming Language" },
+  { "name": "Python", "category": "Programming Language" },
+  { "name": "Java", "category": "Programming Language" },
+  { "name": "C", "category": "Programming Language" },
+  { "name": "C#", "category": "Programming Language" },
+  { "name": "PHP", "category": "Programming Language" },
+  { "name": "HTML5", "category": "Frontend" },
+  { "name": "CSS3", "category": "Frontend" },
+  { "name": "Bootstrap", "category": "Frontend" },
+  { "name": "TailwindCSS", "category": "Frontend" },
+  { "name": "jQuery", "category": "Frontend" },
+  { "name": "React", "category": "Frontend Framework" },
+  { "name": "Angular", "category": "Frontend Framework" },
+  { "name": "AngularJS", "category": "Frontend Framework" },
+  { "name": "Node.js", "category": "Backend Framework" },
+  { "name": "Express.js", "category": "Backend Framework" },
+  { "name": "Spring", "category": "Backend Framework" },
+  { "name": "Symfony", "category": "Backend Framework" },
+  { "name": "Laravel", "category": "Backend Framework" },
+  { "name": "NestJS", "category": "Backend Framework" },
+  { "name": "Django", "category": "Backend Framework" },
+  { "name": "ASP.NET", "category": "Backend Framework" },
+  { "name": "GraphQL", "category": "Backend Tool" },
+  { "name": "JWT", "category": "Security" },
+  { "name": "MySQL", "category": "Database" },
+  { "name": "PostgreSQL", "category": "Database" },
+  { "name": "MongoDB", "category": "Database" },
+  { "name": "SQLite", "category": "Database" },
+  { "name": "Neo4j", "category": "Database" },
+  { "name": "Pandas", "category": "Data Science" },
+  { "name": "NumPy", "category": "Data Science" },
+  { "name": "Anaconda", "category": "Data Science" },
+  { "name": "Docker", "category": "DevOps" },
+  { "name": "Jenkins", "category": "DevOps" },
+  { "name": "Postman", "category": "DevOps" },
+  { "name": "Swagger", "category": "DevOps" },
+  { "name": "Apache Maven", "category": "DevOps" },
+  { "name": "Apache", "category": "DevOps" },
+  { "name": "NPM", "category": "Tooling" },
+  { "name": "Trello", "category": "Tooling" },
+  { "name": "Canva", "category": "Tooling" },
+  { "name": "Shell", "category": "Scripting" },
+  { "name": "Chart.js", "category": "Frontend" },
+  { "name": "Socket.io", "category": "Realtime Communication" }
+]
+
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "MERN Stack WhatsApp Clone",
+        "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
+        "image": "whatsapp-mern.jpeg",
+        "url": "https://www.youtube.com/watch?v=gzdQDxzW2Tw"
+      },
+      {
+        "title": "MERN Stack TikTok Clone",
+        "category": "TikTok Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
+        "image": "tiktok-mern.jpeg",
+        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
+      },
+      {
+        "title": "Facebook Clone with React",
+        "category": "Facebook Clone built with ReactJS",
+        "image": "facebook-clone.png",
+        "url": "https://www.youtube.com/watch?v=B-kxUMHBxNo"
+      },
+      {
+        "title": "Airbnb Clone",
+        "category": "Facebook Clone built with ReactJS",
+        "image": "airbnb-clone.jpeg",
+        "url": "https://www.youtube.com/watch?v=BtJeH_-XYaA"
+      },
+      {
+        "title": "Netflix Clone",
+        "category": "Facebook Clone built with ReactJS",
+        "image": "netflix-clone.jpeg",
+        "url": "https://www.youtube.com/watch?v=XtMThy8QKqU&t=9358s"
+      }
+    ]
+  },
+  "testimonials": {
+   "testimonials": [
+  {
+    "text": "During his internship at Standard Sharing Software, he demonstrated exceptional technical skills and professionalism. A very competent and reliable trainee.",
+    "user": "Standard Sharing Software"
+  },
+  {
+    "text": "Hamza showed great initiative and quickly adapted to our development environment at Tunisie Telecom. His contributions were valuable and he proved to be a highly skilled intern.",
+    "user": "Tunisie Telecom"
+  },
+  {
+    "text": "His dedication and expertise during his internship impressed the whole team. He is a motivated developer with a promising future.",
+    "user": "Employability Hub - Esprit Group"
+  }
+]
+
+  }
+}
