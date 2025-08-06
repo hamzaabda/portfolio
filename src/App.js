@@ -2,13 +2,21 @@ import React, { Component } from 'react'
 import $ from 'jquery'
 import './App.css'
 
+// Import des composants
 import Header from './Components/Header'
 import Footer from './Components/Footer'
 import About from './Components/About'
 import Resume from './Components/Resume'
 import Contact from './Components/Contact'
 import Testimonials from './Components/Testimonials'
-import Project from './Components/Project' // ✅ Ajouté
+import Project from './Components/Project'
+
+// ✅ Import de Google Analytics 4
+import ReactGA from 'react-ga4'
+
+// ✅ Initialisation GA4 (utilise ton propre ID GA4 ici)
+ReactGA.initialize('G-XXXXXXXXXX')  // Remplace par ton ID Google Analytics 4
+ReactGA.send({ hitType: "pageview", page: window.location.pathname })
 
 class App extends Component {
   constructor(props) {
@@ -43,7 +51,7 @@ class App extends Component {
         <Header data={this.state.resumeData.main} />
         <About data={this.state.resumeData.main} />
         <Resume data={this.state.resumeData.resume} />
-        <Project data={this.state.resumeData.project} /> {/* ✅ Ajouté ici */}
+        <Project data={this.state.resumeData.project} />
         <Testimonials data={this.state.resumeData.testimonials} />
         <Contact data={this.state.resumeData.main} />
         <Footer data={this.state.resumeData.main} />
